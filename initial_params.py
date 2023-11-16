@@ -70,3 +70,8 @@ def main():
     
     sdc_params = get_SDC_params(args.tcl_file,args.sdc_file)
     print(sdc_params)
+
+if __name__ == "__main__":
+    main()
+
+
